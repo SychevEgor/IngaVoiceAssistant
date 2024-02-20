@@ -3,7 +3,7 @@ from yandex_music import Client
 import pygame
 
 
-client = Client('AQAAAABPjoOCAAG8XpOZD-Z8fUKUiF9kC6YiBYM').init()
+client = Client('TOKEN_YA_MUSIK').init()
 count = 0
 def play():
     pygame.init()
